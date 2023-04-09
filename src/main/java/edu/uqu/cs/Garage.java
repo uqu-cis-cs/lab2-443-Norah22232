@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Garage{
 
-    /** Part 1 **/
+    /* Part 1 */
     /**
      * Decalre an instance variable named cars
      * as an array of Car type
@@ -22,7 +22,7 @@ public class Garage{
      *
      */
 private Car[] cars = new Car[3];
-    /** Part 2 **/
+    /* Part 2 */
     /**
      * Decalre a static/class variable named countCars
      * Make sure its public
@@ -32,7 +32,7 @@ private Car[] cars = new Car[3];
      *
      */
 public static int countCars = 0;
-    /** Part 3 **/
+    /* Part 3 */
     /**
      * Define a default constructor to create
      * all the elements of cars
@@ -50,7 +50,7 @@ public static int countCars = 0;
             cars[i] = new Car();
         }
     }
-    /** Part 4 **/
+    /* Part 4 */
     /**
      * Define addCar(String parameter) that adds a new car (by model) to the garage 
      * and set its flag to true; 
@@ -84,7 +84,7 @@ public void addCar(String model) {
             }
         }
     }
-    /** Part 5 **/
+    /* Part 5 */
     /**
      * Define moveOut(String) that moves the car (by model) out of the garage; 
      * hint you must first search if the car is in the list of cars, 
@@ -114,7 +114,7 @@ public void addCar(String model) {
     }  
 
 
-    /** Part 6 **/
+    /* Part 6 */
     /**
      * Define moveOut(String) that moves the car (by model) into the garage; 
      * hint you must first search if the car is in the list of cars, 
@@ -138,7 +138,7 @@ public void addCar(String model) {
         }
     } 
 
-    /** Part 7 **/
+    /* Part 7 */
     /**
      * Define listCars() to display/list all the cars in the garage;
      * Note: method returns NO data
